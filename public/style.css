@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 2em;
+}
+form {
+  margin-bottom: 2em;
+}
+#playlist {
+  list-style: none;
+  padding: 0;
+}
+#playlist li {
+  padding: 8px;
+  cursor: pointer;
+  background: #fff;
+  margin: 5px auto;
+  max-width: 300px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+#playlist li:hover {
+  background: #e0e0e0;
+}
+#lyrics {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  background: #fff;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.highlight {
+  color: red;
+}

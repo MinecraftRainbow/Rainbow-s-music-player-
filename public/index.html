@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>上传音乐播放器</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎵 上传你的音乐</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="music" accept="audio/*" required>
+    <input type="file" name="lyrics" accept=".lrc">
+    <button type="submit">上传</button>
+  </form>
+
+  <ul id="playlist"></ul>
+  <audio id="audio" controls></audio>
+  <div id="lyrics"></div>
+  <script src="script.js"></script>
+</body>
+</html>
